@@ -3,14 +3,19 @@ C++ bitvector class that allocates as few bytes as possible to cover specified a
 
 ### Usage
 // Allocate 20 bools
+
 BitVector myList(20);
 
 // Set a bool
+
 myList.set(5, true);
+
 // Get a bool
+
 bool myBool = myList[5];
 
 // Has .size() loop support
+
 for(int ii = 0; ii < myList.size(); ++ii);
 
 ### Issues
