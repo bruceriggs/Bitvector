@@ -22,4 +22,4 @@ myList[i] = true;
 
 myBool = myList[i];
 
-Because of the Operator Overload not noticing a difference between the 2 functions (prototype is the same except for return type), so in the end, I decided to keep the GETTER and not the SETTER. So to set a bool, you have to use the set(int, bool) function.
+Because of the Operator Overload not noticing a difference between the 2 functions (prototype is the same except for return type), so in the end, I decided to keep the GETTER and not the SETTER. So to set a bool, you have to use the set(int, bool) function..
